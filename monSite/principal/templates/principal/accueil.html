@@ -1,0 +1,341 @@
+﻿{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <!--meta-->
+
+    <meta charset='UTF-8'>
+    <meta name="description" content="">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+    <!--css-->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/responsive.css' %}" />
+    <link rel='shortcut icon' type='image.png' href="/static/images/logo_onglet.png" />
+
+    <!--title-->
+
+    <title>Rouan Laporal</title>
+</head>
+<body data-spy="scroll" data-target="#navbar-example">
+   <div class="main-area">
+        <header>
+            <div id="sticker" class="header-area stick">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1 col-sm-12">
+                            <nav class="navbar navbar-default">
+                                <div class="navbar-header">
+                                    <!--logo-->
+                                    <a class="navbar-brand" href="{% url "principal" %}">
+                                        <img src="/static/images/logo.png" />
+                                    </a>
+                                </div>
+                                <div class="collapsed  main-menu" id="navbar-example">
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li><a href="#about">About</a></li>
+                                        <li><a href="#skills">Skills</a></li>
+                                        <li><a href="#resume">Resume</a></li>
+                                        <li><a href="#contact">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+       <div id="about" class="about-area">
+           <div class="container">
+               <div class="row">
+                   <div class="col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+                       <div class="main-content">
+                           <div class="about-main">
+                               <div class="row">
+                                   <div class="col-md-6 col-sm-6 col-xs-12">
+                                       <div class="left-side-fixed fix">
+                                           <div class="left-sidebar">
+                                               <div class="left-img">
+                                                   <img class="img-circle" src=" " alt="" />
+                                               </div>
+                                               <div class="left-content">
+                                                   <h2 class="name-text">Rouan Laporal</h2>
+                                                   <span class="typer"></span>
+                                               </div>
+                                           </div>
+                                       </div>
+                                   </div>
+                                   <div class="col-md-6 col-sm-6 col-xs-12">
+                                       <div class="content-area">
+                                           <div class="main-content">
+                                               <div class="about-self">
+                                                   <p>Student <br />
+                                                   University of French Guiana,
+                                                   </p>
+                                               </div>
+                                               <div class="self-text">
+                                                   <ul class="my-profile">
+                                                       <li class="clearfix">
+                                                           <strong class="head-title">Address</strong>
+                                                           <span class="pro-list">Cayenne, French Guiana (France)</span>
+                                                       </li>
+                                                       <li class="clearfix">
+                                                           <strong class="head-title">E-mail</strong>
+                                                           <span class="pro-list">rouan.laporal<img src="/static/images/logo_mail.png"/>outlook.com</span>
+                                                       </li>
+                                                       <li class="clearfix">
+                                                           <strong class="head-title">Phone</strong>
+                                                           <span class="pro-list">+594 694 01 68 81</span>
+                                                       </li>
+                                                   </ul>
+                                               </div>
+                                           </div>
+                                       </div>
+                                   </div>
+                               </div>
+                               <div class="row">
+                                   <div class="about-bottom">
+                                       <div class="col-md-4 col-sm-4 col-xs-12">
+                                           <div class="social-icons text-center">
+                                               <!--<ul>
+                                                   <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                               </ul>-->
+                                           </div>
+                                       </div>
+                                   </div>
+                                   <div class="col-md-4 col-sm-4 col-xs-12">
+                                       <div class="resume text-center">
+                                           <a class="resume-btn message-btn" href="#">Send Message</a>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+   <div id="skills" class="skill-area area-padding">
+       <div class="container">
+           <div class="row">
+               <div class="col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+                   <div class="skill-main">
+                       <div class="section-head text-center">
+                           <h3>SKILLS</h3>
+                       </div>
+                       <div class="row">
+                           <div class="col-md-6 col-sm-6 col-xs-12">
+                               <h2>Languages</h2>
+                               <div class="skill-progress">
+                                   <h4 class="web-ex">English</h4>
+                                   <div class="progress">
+                                       <div class="progress-bar progress-bar-striped wow fadeInLeft bg-success" data-wow-duration="1.5s" data-wow-delay="0.5s" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+                                   </div>
+                               </div>
+                               <div class="skill-progress">
+                                   <h4 class="web-ex">French</h4>
+                                   <div class="progress">
+                                       <div class="progress-bar progress-bar-striped wow fadeInLeft bg-success" data-wow-duration="1.5s" data-wow-delay="0.5s" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="col-md-6 col-ssm-6 col-xs-12">
+                               <h2>Operating Systems</h2>
+                               <div class="skill-progress">
+                                   <h4 class="web-ex"> GNU/Linux</h4>
+                                   <div class="progress">
+                                       <div class="progress-bar progress-bar-striped wow fadeInLeft bg-success" data-wow-duration="1.5s" data-wow-delay="0.5s" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+                                   </div>
+                               </div>
+                               <div class="skill-progress">
+                                   <h4 class="web-ex">Windows</h4>
+                                   <div class="progress">
+                                       <div class="progress-bar progress-bar-striped wow fadeInLeft bg-success" data-wow-duration="1.5s" data-wow-delay="0.5s" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"></div>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                       <br/><br />
+                       
+                       <div class="row">
+                           <div class="col-md-6 col-sm-6 col-xs-12">
+                               <h2> Programming Software </h2>
+                               <div class="skill-progress">
+                                   <h4 class="web-ex">Eclipse</h4>
+                                   <div class="progress">
+                                       <div class="progress-bar progress-bar-striped wow fadeInLeft bg-success" data-wow-duration="1.5s" data-wow-delay="0.5s" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
+                                   </div>
+                               </div>
+                               <div class="skill-progress">
+                                   <h4 class="web-ex">Code Blocks</h4>
+                                   <div class="progress">
+                                       <div class="progress-bar progress-bar-striped wow fadeInLeft bg-success" data-wow-duration="1.5s" data-wow-delay="0.5s" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
+                                   </div>
+                               </div>
+                               <div class="skill-progress">
+                                   <h4 class="web-ex">Visual Studio</h4>
+                                   <div class="progress">
+                                       <div class="progress-bar progress-bar-striped wow fadeInLeft bg-success" data-wow-duration="1.5s" data-wow-delay="0.5s" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="col-md-6 col-sm-6 col-xs-12">
+                               <h2>Office Software</h2>
+                               <div class="skill-progress">
+                                   <h4 class="web-ex">Excel</h4>
+                                   <div class="progress">
+                                       <div class="progress-bar progress-bar-striped wow fadeInLeft bg-success" data-wow-duration="1.5s" data-wow-delay="0.5s" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 45%;"></div>
+                                   </div>
+                               </div>
+                               <div class="skill-progress">
+                                   <h4 class="web-ex">Word</h4>
+                                   <div class="progress">
+                                       <div class="progress-bar progress-bar-striped wow fadeInLeft bg-success" data-wow-duration="1.5s" data-wow-delay="0.5s" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+                                   </div>
+                               </div>
+                               <div class="skill-progress">
+                                   <h4 class="web-ex">Emacs</h4>
+                                   <div class="progress">
+                                       <div class="progress-bar progress-bar-striped wow fadeInLeft bg-success" data-wow-duration="1.5s" data-wow-delay="0.5s" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+                                   </div>
+                               </div>
+                               <div class="skill-progress">
+                                   <h4 class="web-ex"> Latex</h4>
+                                   <div class="progress">
+                                       <div class="progress-bar progress-bar-striped wow fadeInLeft bg-success" data-wow-duration="1.5s" data-wow-delay="0.5s" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="col-md-6 col-sm-6 col-xs-12">
+                               <h2>Computer Languages</h2>
+                               <div class="skill-progress">
+                                   <h4 class="web-ex">Caml</h4>
+                                   <div class="progress">
+                                       <div class="progress-bar progress-bar-striped wow fadeInLeft bg-success" data-wow-duration="1.5s" data-wow-delay="0.5s" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+                                   </div>
+                               </div>
+                               <div class="skill-progress">
+                                   <h4 class="web-ex">Android</h4>
+                                   <div class="progress">
+                                       <div class="progress-bar progress-bar-striped wow fadeInLeft bg-success" data-wow-duration="1.5s" data-wow-delay="0.5s" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+                                   </div>
+                               </div>
+                               <div class="skill-progress">
+                                   <h4 class="web-ex">C++</h4>
+                                   <div class="progress">
+                                       <div class="progress-bar progress-bar-striped wow fadeInLeft bg-success" data-wow-duration="1.5s" data-wow-delay="0.5s" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
+                                   </div>
+                               </div>
+                               <div class="skill-progress">
+                                   <h4 class="web-ex">JAVA</h4>
+                                   <div class="progress">
+                                       <div class="progress-bar progress-bar-striped wow fadeInLeft bg-success" data-wow-duration="1.5s" data-wow-delay="0.5s" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
+                                   </div>
+                               </div>
+                               <div class="skill-progress">
+                                   <h4 class="web-ex">Ruby</h4>
+                                   <div class=" progress">
+                                       <div class="progress-bar progress-bar-striped wow fadeInLeft bg-success" data-wow-duration="1.5s" data-wow-delay="0.5s" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
+                                   </div>
+                               </div>
+                               <div class="skill-progress">
+                                   <h4 class="web-ex">python</h4>
+                                   <div class="progress">
+                                       <div class="progress-bar progress-bar-striped wow fadeInLeft bg-success" data-wow-duration="1.5s" data-wow-delay="0.5s" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+                                   </div>
+                               </div>
+                               <div class="skill-progress">
+                                   <h4 class="web-ex">C</h4>
+                                   <div class="progress">
+                                       <div class="progress-bar progress-bar-striped wow fadeInLeft bg-success" data-wow-duration="1.5s" data-wow-delay="0.5s" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"></div>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="col-md-6 col-sm-6 col-xs-12">
+                               <h2>Databases Systems</h2>
+                               <div class="skill-progress">
+                                   <h4 class="web-ex">MySQL</h4>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-striped wow fadeInLeft bg-success" data-wow-duration="1.5s" data-wow-delay="0.5s" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+                                    </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+    <div id="resume" class="educ-area area-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+                    <div class="experience-main">
+                        <div class="section-head text-center">
+                            <h3>Education</h3>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="expre-edu left-edu">
+                                    <div class="edu-result">
+                                        <span class="select-pin">2016-Now</span>
+                                        <h5>Undergraduated Student</h5>
+                                        <h6>University of French Guiana, French Guiana, France</h6>
+                                        <p> Student in Computer Science</p>
+                                    </div>
+                                    <div class="edu-result last-result">
+                                        <span class="select-pin">09/2015-06/2016</span>
+                                        <h5>Hight School student</h5>
+                                        <h6>Lama-Prévot Hight School, French Guiana, France</h6>
+                                        <p> Scientific diploma </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact" class="contact-are area-padding">
+        <div class="container" >
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1 col-md-10-sm-12 col-xs-12">
+                    <div class="contct-main">
+                        <div class="section-head text-center">
+                            <h3> Get in Touch</h3>
+                        </div>
+                        <div class="row contact-inner">
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="map-zone">
+                                    <div class="contact-info">
+                                        <div class="contact-icons">
+                                            <ul>
+                                                <li>
+                                                    <i class="fa fa-mobile"></i> <strong>Phone:&nbsp;&nbsp;</strong>
+                                                    +594 694 01 68 81
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-envelope"></i> <strong>Email:&nbsp;&nbsp;</strong>
+                                                    <a>rouan.laporal<img src="/static/images/logo_mail.png">outlook.com</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
