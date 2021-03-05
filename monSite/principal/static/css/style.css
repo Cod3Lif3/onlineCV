@@ -194,7 +194,7 @@ body {
 }
 
 .main-area {
-    background: rgba(0, 0, 0, 0) url("img/background/bg.jpg") no-repeat center top / cover;
+    background: rgba(0, 0, 0, 0) url("img/background/bg.jpg") no-repeat center top ;
 }
 
     .main-area::after {
@@ -493,11 +493,13 @@ h2.name-text {
     position: absolute;
     right: 17px;
     top: 11px;
+    color: black;
 }
 
 .message-btn::after {
     content: "";
     top: 9.5px;
+    color : black;
 }
 
 .about-main {
@@ -886,7 +888,7 @@ h2.name-text {
     .portfolio-menu > li:last-child::after {
         position: absolute;
         background: transparent;
-        content "";
+        content : "";
     }
 
     .portfolio-menu > li::after {
@@ -1697,7 +1699,7 @@ h2.name-text {
     }
 
 .entry-meta span a:hover {
-    color: ##1fc0a0;
+    color: #1fc0a0;
 }
 
 .post-information .entry-meta span:first-child i {
